@@ -3,6 +3,9 @@ public class Hello {
         System.out.println("Hello Russell");
 
         int myFirstNumber = 5;
-        System.out.println(myFirstNumber);
+        int mySecondNumber = 12;
+        int myThirdNumber = 6;
+        int sum = myFirstNumber + mySecondNumber + myThirdNumber;
+        System.out.println(sum);
     }
 }
