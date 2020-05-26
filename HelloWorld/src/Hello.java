@@ -6,6 +6,7 @@ public class Hello {
         int mySecondNumber = 12;
         int myThirdNumber = 6;
         int sum = myFirstNumber + mySecondNumber + myThirdNumber;
-        System.out.println(sum);
+        int myLastOne = 1000 - sum;
+        System.out.println(myLastOne);
     }
 }
