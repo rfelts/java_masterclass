@@ -16,5 +16,10 @@ public class Main {
         System.out.println("Byte Min Value " + myByteMinValue);
         System.out.println("Byte Max Value " + myByteMaxValue);
 
+        short myShortMinValue = Short.MIN_VALUE;
+        short myShortMaxValue = Short.MAX_VALUE;
+        System.out.println("Short Min Value " + myShortMinValue);
+        System.out.println("Short Max Value " + myShortMaxValue);
+
     }
 }
