@@ -27,5 +27,12 @@ public class Main {
         System.out.println("Long Min Value " + myLongMinValue);
         System.out.println("Long Max Value " + myLongMaxValue);
 
+        byte newByte = 120;
+        short newShort = 27456;
+        int newInt = 21987645;
+
+        long newLong = 50000 + (10 * (newByte + newShort + newInt));
+        System.out.println("New Long value " + newLong);
+
     }
 }
